@@ -19,3 +19,5 @@ Por adorar fotografia fez varios cursos na área, inclusive de   fotografia auto
 Não se cansa de estudar temas como autoconhecimento, coaching, liderança, empreendedorismo, GTD entre outros, e procura com este aprendizado se autodisciplinar e ajudar aos outros a evoluirem em conjunto.
 
 Um louco por auto-definição, nerd segundo alguns amigos e estranho segundo outros...
+
+![Pelo Caminho...](/images/bicicleta.jpg)
