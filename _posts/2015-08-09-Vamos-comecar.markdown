@@ -3,6 +3,7 @@ layout: post
 title:  "Vamos começar!!!"
 date:   2015-08-09 12:00
 categories: Blog geral
+permalink: vamos-comecar
 ---
 
 Seja bem vindo ao meu blog, estou ressucitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo alguns dos posts antigos revistos...
