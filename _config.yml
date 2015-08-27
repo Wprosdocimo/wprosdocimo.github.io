@@ -3,7 +3,7 @@ title: Wilson Luiz Prosdocimo
 email: wilson@wprosdocimo.com.br
 description: > # this means to ignore newlines until "baseurl:"
   Blog pessoal de Wilson Luiz Prosdocimo, um blog com um pouco de tudo o que eu gosto...
-  fotografia, informática, poesia, culinaria, etc.
+  fotografia, informática, poesia, culinária, etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wprosdocimo.com.br" # the base hostname & protocol for your site
 twitter_username: wprosdocimo
