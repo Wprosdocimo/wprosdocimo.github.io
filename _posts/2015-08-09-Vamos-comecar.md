@@ -6,7 +6,7 @@ categories: Blog geral
 permalink: vamos-comecar
 ---
 
-Seja bem vindo ao meu blog, estou ressucitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo alguns dos posts antigos revistos...
+Seja bem vindo ao meu blog, estou ressuscitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo algumas das postagens antigas revistas...
 
 Pretendo escrever um pouco sobre tudo o que gosto, ou seja isto vai ser uma grande salada de frutas...
 
@@ -18,7 +18,7 @@ Alguns dos temas que pretendo abranger são:
   * Programação
 * Fotografia
   * Minhas fotos
-  * Fotos e fotografos que admiro
+  * Fotos e fotógrafos que admiro
   * Textos sobre fotografia e arte
 * Gastronomia
   * Receitas que aprecio
