@@ -10,7 +10,9 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
-      </div>
+    {% if page.comments %}
+      {% include comments.html %}
+    {% endif %}      </div>
     </div>
 
     {% include footer.html %}

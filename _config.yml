@@ -26,3 +26,13 @@ author :
   linkedin: wprosdocimo
   googleplus: wprosdocimo
   pinterest: wprosdocimo
+
+comments :
+  provider : disqus
+  disqus :
+    short_name : wprosdocimo
+
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-34220608-1'
