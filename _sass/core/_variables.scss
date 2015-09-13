@@ -3,21 +3,46 @@
 //
 
 $base-font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// colors
+//
+$white-color      : #fff;
+$silver-color     : #eee;
+$black-color      : #000;
+$gray-color       : #828282;
+$gray-color-light : lighten($gray-color, 35%);
+$gray-color-dark  : darken($gray-color, 25%);
+
+$text-color       : lighten($black-color, 36%);
+$background-color : $white-color;
+$blue-color       : #021725;
+$red-color        : #e36767;
+$brand-color      : #2a7ae2;
 
 // Width of the content area
 $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
+
+//header height
+//
+$header-height-S: 50px;
+$header-height-M: 80px;
+
+// z-index
+//
+$content-zindex: 1;
+$nav-zindex: 2;
+$header-zindex: 3;
+
+// breakpoints
+//
+$phone   : 320px;
+$tablet  : 768px;
+$desktop : 1170px;

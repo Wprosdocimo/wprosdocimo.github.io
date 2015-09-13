@@ -1,22 +1,9 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-    {% if page.comments %}
-      {% include comments.html %}
-    {% endif %}      </div>
-    </div>
-
+    {{ content }}
     {% include footer.html %}
-
   </body>
-
 </html>

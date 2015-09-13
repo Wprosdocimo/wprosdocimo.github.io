@@ -1,15 +1,41 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<section class="intro">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+      <i class="icon icon--calendar"></i>
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }} de
+      {% case m %}
+        {% when '1' %}Janeiro
+        {% when '2' %}Fevereiro
+        {% when '3' %}Março
+        {% when '4' %}Abril
+        {% when '5' %}Maio
+        {% when '6' %}Junho
+        {% when '7' %}Julho
+        {% when '8' %}Agosto
+        {% when '9' %}Setembro
+        {% when '10' %}Outubro
+        {% when '11' %}Novembro
+        {% when '12' %}Dezembro
+      {% endcase %}
+      de {{ page.date | date: "%Y" }}
+    </time>
+  </p>
 
-  <article class="post-content">
+  <a href="#content" data-offset="-45" class="scroll-down bounce"><i class="icon icon--circle-down"></i></a>
+</section>
+
+<article role="article" id="content" class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <div class="container">
     {{ content }}
-  </article>
+  </div>
 
-</div>
+  {% if page.comments %}
+    {% include comments.html %}
+  {% endif %}
+</article>

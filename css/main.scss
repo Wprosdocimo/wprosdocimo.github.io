@@ -7,8 +7,11 @@
 @import "core/functions";
 @import "core/placeholders";
 @import "core/mixins";
+@import "core/normalize";
+@import "core/animate";
 
-@import "normalize";
+@import "bourbon/bourbon"; // http://bourbon.io/
+@import "icomoon";
 @import "base";
-@import "layout";
+@import "blog";
 @import "syntax";
