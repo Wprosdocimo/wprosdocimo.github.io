@@ -157,15 +157,20 @@
   .post-title {
     @include font-size(32px);
     color: $white-color;
+    line-height: 1.2;
   }
 
   .post-meta {
     @include font-size(14px);
     font-style: italic;
-    margin-top: 40px;
+    margin-top: 80px;
 
     &, a {
       color: darken($white-color, 20%);
+    }
+
+    @include media(D) {
+      margin-top: 80px;
     }
   }
 
