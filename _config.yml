@@ -33,12 +33,12 @@ paginate_path: "/page/:num"
 sass:
   style: compressed
 
-comments :
-  provider : disqus
-  disqus :
-    short_name : wprosdocimo
+# comments :
+#   provider : disqus
+#   disqus :
+#     short_name : wprosdocimo
 
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-34220608-1'
+# analytics :
+#   provider : google
+#   google :
+#       tracking_id : 'UA-34220608-1'
