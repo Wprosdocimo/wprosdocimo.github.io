@@ -22,6 +22,10 @@
         {% endcase %}
         de {{ post.date | date: "%Y" }}
       </time>
+
+      {% if post.comments %}
+        <span> -- <i class="icon icon--comment"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
+      {% endif %}
     </span>
   </header>
 

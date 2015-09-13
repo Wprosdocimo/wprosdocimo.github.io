@@ -2,6 +2,7 @@
 layout: page
 title: O autor
 permalink: /about/
+slug: about
 ---
 
 Wilson Luiz Prosdocimo tem **36 anos** é casado e tem um filhinho chamado Tiago. Trabalha como administrador de redes e é fotografo amador nas horas vagas.

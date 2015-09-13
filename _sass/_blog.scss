@@ -42,7 +42,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba($blue-color, 0.95);
+  background: $blue-color;
   height: $header-height-S;
   width: 100%;
   z-index: $header-zindex;
@@ -65,7 +65,7 @@
     &.is-fixed {
       position: fixed;
       top: -$header-height-M;
-      background-color: rgba($blue-color, 0.96);
+      background-color: $blue-color;
       -webkit-transition: -webkit-transform 0.3s;
       -moz-transition: -moz-transform 0.3s;
       transition: transform 0.3s;
@@ -76,7 +76,7 @@
     }
 
     &.menu-is-open {
-      background-color: rgba($blue-color, 0.96);
+      background-color: $blue-color;
     }
   }
 }
@@ -351,9 +351,12 @@
 
   .post-meta {
     @include font-size(14px);
-    color: darken($white-color, 20%);
     font-style: italic;
     margin-top: 40px;
+
+    &, a {
+      color: darken($white-color, 20%);
+    }
   }
 
   @include media(T) {
@@ -397,8 +400,8 @@
   }
 }
 
-
-
+// Posts
+//
 .post {
   padding-bottom: 1.5em;
 }
@@ -429,11 +432,31 @@
 }
 
 //
+// Comments
+.comments {
+  border-top: 2px solid rgba($black-color, .2);
+  background-color: darken($white-color, 3%);
+  padding-bottom: 1.3em;
+
+  h3 {
+    display: inline-block;
+    font-weight: 800;
+  }
+}
+body.single {
+  .post {
+    padding-bottom: 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+//
 // footer
 //
 .footer {
   @extend %clearfix;
-  // border-top: 4px solid $blue-color;
   background-color: $blue-color;
   margin-top: 2.5em;
   padding: 1.5em 0 .5em;
