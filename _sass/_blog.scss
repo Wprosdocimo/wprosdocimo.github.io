@@ -43,7 +43,7 @@
   top: 0;
   left: 0;
   background: $blue-color;
-  height: $header-height-S;
+  min-height: $header-height-S;
   width: 100%;
   z-index: $header-zindex;
   box-shadow: 0 1px 2px rgba(#000, 0.3);
@@ -54,7 +54,6 @@
     background: transparent;
     box-shadow: none;
   }
-
 
   @include media(D) {
     @include transition(background-color 0.3s);
@@ -83,239 +82,51 @@
 
 .logo {
   display: block;
-  position: absolute;
-  @include center(y);
-  left: .875em;
-
-  a {
-    display: inline-block;
-    color: $white-color;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-
-  @include media(T) {
-    left: 2.6em;
-  }
-}
-
-.secondary-nav {
-  position: absolute;
-  @include center(y);
-  right: 40px;
-  display: none;
-  margin: 0;
-  padding: 0;
-
-  li {
-    display: inline-block;
-    margin-left: 2.2em;
-  }
-
-  a {
-    display: inline-block;
-    color: $white-color;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-
-  @include media(T) {
-    display: block;
-  }
-}
-
-.primary-nav-trigger {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 50px;
-  background-color: lighten($blue-color, 5%);
-
-  .menu-text {
-    color: $white-color;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: none;
-  }
-
-  .menu-icon {
-    display: inline-block;
-    position: absolute;
-    @include center;
-    width: 18px;
-    height: 2px;
-    background-color: $white-color;
-    @include transition(background-color 0.3s);
-
-    &::before, &:after {
-      content: '';
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: $white-color;
-      right: 0;
-      -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
-      -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
-      transition: transform .3s, top .3s, background-color 0s;
-    }
-
-    &::before {
-      top: -5px;
-    }
-
-    &::after {
-      top: 5px;
-    }
-
-    &.is-clicked {
-      background-color: rgba($white-color, 0);
-
-      &::before, &::after {
-        background-color: rgba($white-color, 1);
-      }
-
-      &::before {
-        top: 0;
-
-        @include transform(rotate(135deg));
-      }
-
-      &::after {
-        top: 0;
-
-        @include transform(rotate(225deg));
-      }
-    }
-  }
-
-  @include media(T) {
-    width: 100px;
-    padding-left: 1em;
-    background-color: transparent;
-    height: 30px;
-    line-height: 30px;
-    right: 2.2em;
-
-    @include center(y);
-
-    .menu-text {
-      display: inline-block;
-    }
-
-    .menu-icon {
-      left: auto;
-      right: 1em;
-
-      @include transform(translateX(0) translateY(-50%));
-    }
-  }
-}
-
-.primary-nav {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba($blue-color, 0.96);
-  z-index: $nav-zindex;
   text-align: center;
-  padding: $header-height-S 0;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  margin-top: 15px;
+  @include font-size(20px);
 
-  @include transform(translateY(-100%));
+  a {
+    display: inline-block;
+    color: $white-color;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 
-  @include transition-property(transform);
+  @include media(T) {
+    margin: 0;
+    left: 2.6em;
+    position: absolute;
+    @include center(y);
+    left: .875em;
+  }
+}
 
-  @include transition-duration(0.4s);
+.navbar {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  width: 100%;
 
   li {
-    @include font-size(22px);
-
-    font-weight: 300;
-
-    @include font-smoothing;
-
-    margin: .2em 0;
-    text-transform: capitalize;
+    display: inline-block;
+    margin: 1.1em;
   }
 
   a {
     display: inline-block;
-    padding: .4em 1em;
-
-    @include border-radius;
-
-    @include transition(background 0.2s);
-
-    .no-touch &:hover {
-      background-color: $red-color;
-    }
-  }
-
-  .label {
-    color: lighten($blue-color, 15%);
+    color: $white-color;
     text-transform: uppercase;
     font-weight: 700;
-
-    @include font-size(14px);
-
-    margin: 2.4em 0 .8em;
-  }
-
-  .social {
-    display: inline-block;
-    margin: 0 .4em;
-
-    a {
-      width: 44px;
-      height: 44px;
-      padding: 0;
-      background-image: url("/images/socials.svg");
-      background-repeat: no-repeat;
-      overflow: hidden;
-      text-indent: 100%;
-      white-space: nowrap;
-    }
-  }
-
-  .facebook a {
-    background-position: 0 0;
-  }
-
-  .instagram a {
-    background-position: -44px 0;
-  }
-
-  .dribbble a {
-    background-position: -88px 0;
-  }
-
-  .twitter a {
-    background-position: -132px 0;
-  }
-
-  &.is-visible {
-    @include transform(translateY(0));
   }
 
   @include media(T) {
-    padding: $header-height-M 0;
-  }
-
-
-  @include media(D) {
-    li {
-      @include font-size(30px);
-    }
-
-    .label {
-      @include font-size(16px);
-    }
+    width: auto;
+    text-align: right;
+    display: block;
+    position: absolute;
+    @include center(y);
+    right: 40px;
   }
 }
 
