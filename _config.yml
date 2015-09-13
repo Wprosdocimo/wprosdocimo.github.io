@@ -27,7 +27,7 @@ author :
   googleplus: wprosdocimo
   pinterest: wprosdocimo
 
-paginate: 1
+paginate: 5
 paginate_path: "/page/:num"
 
 sass:
