@@ -524,3 +524,70 @@ body.single {
     }
   }
 }
+
+// Pagination posts
+//
+.pagination {
+  width: 100%;
+  max-width: $tablet;
+  margin: 1.5em auto 0;
+  position: relative;
+  text-align: center;
+  padding: 0;
+
+  a, span {
+    display: block;
+    @include user-select(none);
+    padding: .4em 1em;
+    @include font-size(16px);
+    color: $gray-color;
+    margin: .5em 0;
+  }
+
+  a {
+    border: 1px solid $gray-color-light;
+    text-transform: lowercase;
+    border-radius: 3px;
+
+    .no-touch &:hover {
+      background-color: $silver-color;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  .button:first-of-type a::before {
+    content: '\00ab  ';
+  }
+
+  .button:last-of-type a::after {
+    content: ' \00bb';
+  }
+
+  @include media(T) {
+
+    a, span {
+      display: inline-block;
+      margin: 0;
+    }
+
+    .button {
+      position: absolute;
+      top: 0;
+
+      &.older-posts {
+        left: 0;
+      }
+      &.newer-posts {
+        right: 0;
+      }
+    }
+  }
+
+  @include media(D) {
+    margin: 1.5em auto 0;
+  }
+}

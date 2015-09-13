@@ -9,7 +9,9 @@ slug: home
 </section>
 
 <section id="content" class="post-list container">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     {% include article.html %}
   {% endfor %}
+
+  {% include pagination.html %}
 </section>

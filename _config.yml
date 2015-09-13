@@ -27,6 +27,9 @@ author :
   googleplus: wprosdocimo
   pinterest: wprosdocimo
 
+paginate: 1
+paginate_path: "/page/:num"
+
 comments :
   provider : disqus
   disqus :
