@@ -452,6 +452,32 @@ body.single {
   }
 }
 
+// share
+//
+.share {
+  @extend %clearfix;
+  padding: 1em 0;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 0 5px;
+    @include transition(opacity .2s linear);
+    color: $gray-color;
+    opacity: .6;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
+
+  .icon {
+    @include font-size(32px);
+  }
+}
+
 //
 // footer
 //

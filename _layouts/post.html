@@ -37,6 +37,8 @@ slug: single
 <article role="article" id="content" class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
   <div class="container">
     {{ content }}
+
+    {% include share.html %}
   </div>
 
   {% if page.comments %}
