@@ -341,6 +341,10 @@ body.single {
   margin-top: 2.5em;
   padding: 1.5em 0 .5em;
 
+  a {
+    color: $white-color;
+  }
+
   small {
     text-align: center;
     color: $gray-color;
