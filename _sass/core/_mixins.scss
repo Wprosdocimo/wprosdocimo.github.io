@@ -2,6 +2,49 @@
 // Mixins
 //
 
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy: xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+
+    @include transform(translateY(-50%));
+  }
+}
+
+// border radius
+
+@mixin border-radius($radius: 0.25em) {
+  border-radius: $radius;
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -10,7 +53,27 @@
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// media queries
+
+@mixin media($canvas) {
+  @if $canvas == P {
+    @media only screen and (min-width: $phone) {
+      @content;
     }
+  }
+  @else if $canvas == T {
+    @media only screen and (min-width: $tablet) {
+      @content;
+    }
+  }
+  @else if $canvas == D {
+    @media only screen and (min-width: $desktop) {
+      @content;
+    }
+  }
 }

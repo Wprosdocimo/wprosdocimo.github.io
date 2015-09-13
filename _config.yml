@@ -27,6 +27,12 @@ author :
   googleplus: wprosdocimo
   pinterest: wprosdocimo
 
+paginate: 1
+paginate_path: "/page/:num"
+
+sass:
+  style: compressed
+
 comments :
   provider : disqus
   disqus :
@@ -34,5 +40,5 @@ comments :
 
 analytics :
   provider : google
-  google : 
+  google :
       tracking_id : 'UA-34220608-1'

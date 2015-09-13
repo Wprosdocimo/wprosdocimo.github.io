@@ -1,23 +1,17 @@
 ---
 layout: default
+slug: home
 ---
 
-<div class="home">
+<section class="intro">
+  <h1 class="post-title">um blog com um pouco de tudo..</h1>
+  <a href="#content" data-offset="-45" class="scroll-down bounce"><i class="icon icon--circle-down"></i></a>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<section id="content" class="post-list container">
+  {% for post in paginator.posts %}
+    {% include article.html %}
+  {% endfor %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  {% include pagination.html %}
+</section>
