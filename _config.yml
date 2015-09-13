@@ -30,6 +30,9 @@ author :
 paginate: 1
 paginate_path: "/page/:num"
 
+sass:
+  style: compressed
+
 comments :
   provider : disqus
   disqus :
