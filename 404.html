@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /404.html
+slug: error404
+---
+
+<section class="intro small-intro">
+  <h1 class="post-title">Erro 404</h1>
+  <h3>Página não encontrada</h3>
+</section>
+
+<section id="content" class="post-list container">
+
+  <div class="alert">
+    <p>Desculpe, parece que essa URL está apontando para uma página que não existe. </p><p> Tente voltar para a <a href="{{ site.baseurl }}/">Home</a>, <strong>ou se preferir você pode ler os meus últimos posts listados logo abaixo.</strong></p>
+  </div>
+
+  {% for post in site.posts limit:10 %}
+    {% include article.html %}
+  {% endfor %}
+</section>
