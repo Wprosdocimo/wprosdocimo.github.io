@@ -4,7 +4,7 @@ permalink: /404.html
 slug: error404
 ---
 
-<section class="intro small-intro">
+<section class="intro small-intro"{% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
   <h1 class="post-title">Erro 404</h1>
   <h3>Página não encontrada</h3>
 </section>

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="intro">
+<section class="intro"{% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
   <h1 class="post-title">{{ page.title }}</h1>
 
   {% if page.slug == 'about' %}
