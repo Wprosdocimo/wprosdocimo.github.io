@@ -1,10 +1,15 @@
 ---
 layout: post
 title:  "O Quarteto Fantástico"
-date:   2015-09-12 18:11:48
-categories: culinária
 permalink: fantastic_four
+date:   2015-09-12 18:11:48
 comments: true
+description: "Apresentando minha equipe."
+keywords: "equipe, heróis, brincadeiras"
+categories:
+  - Pessoas
+tags:
+  - Pessoas
 ---
 
 Hoje pela manhã estava divagando sobre vários assuntos e lembrei de uma brincadeira de um colega da empresa, onde ele chamou a equipe em que trabalho de **Quarteto Fantástico** *(The Fantastic Four)* e isso me fez pensar a respeito... e concordar com ele.
