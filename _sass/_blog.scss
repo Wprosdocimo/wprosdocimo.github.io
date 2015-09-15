@@ -145,7 +145,8 @@
   background-size: cover;
 
   .post-meta,
-  .post-title {
+  .post-title,
+  h3 {
     position: absolute;
     width: 90%;
     max-width: $desktop;
@@ -158,6 +159,11 @@
     @include font-size(32px);
     color: $white-color;
     line-height: 1.2;
+  }
+
+  h3 {
+    color: darken($white-color, 20%);
+    margin-top: 80px;
   }
 
   .post-meta {
@@ -182,6 +188,21 @@
 
   @include media(D) {
     height: 100%;
+
+    &.small-intro {
+      height: 450px;
+    }
+  }
+}
+
+body.error404 .alert {
+  // text-align: center;
+  padding: 20px 45px;
+  background-color: $silver-color;
+
+  p {
+    font-weight: 300;
+    margin: 0;
   }
 }
 
