@@ -19,7 +19,7 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="{% if page.id %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.title }} - {{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:image" content="{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.cover | prepend: site.baseurl | prepend: site.url }}{% endif %}">
