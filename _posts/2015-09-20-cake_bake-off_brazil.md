@@ -71,7 +71,7 @@ O resultado foi divulgado na quarta feira seguinte e infelizmente não chegamos 
 
 ## Os melhoramentos
 
-Depois da disputa fiquei pensando em como poderia melhorar a receita e nas minhas pesquisas encontrei os comentários da Mari, de que poderia substituir o leite por creme de leite na cobertura, e da Marcinha, de que uma pitada de *"Nós Moscada"* poderia dar um sabor interessante, ambos no blog [*"A Chef Cozinheira"*](http://achefcozinheira.blogspot.com.br/2012/10/bolo-indiano.html). O resultado da minha receita foi experimentado por duas vezes por alguns amigos da empresa e do curso de inglês, e eles adoraram.
+Depois da disputa fiquei pensando em como poderia melhorar a receita e nas minhas pesquisas encontrei os comentários da Mari, de que poderia substituir o leite por creme de leite na cobertura, e da Marcinha, de que uma pitada de *"Noz-moscada"* poderia dar um sabor interessante, ambos no blog [*"A Chef Cozinheira"*](http://achefcozinheira.blogspot.com.br/2012/10/bolo-indiano.html). O resultado da minha receita foi experimentado por duas vezes por alguns amigos da empresa e do curso de inglês, e eles adoraram.
 
 A minha receita estará no próximo post que vou liberar ainda esta semana...
 
