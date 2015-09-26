@@ -7,6 +7,7 @@ SOURCE = "."
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'drafts' => File.join(SOURCE, "_drafts"),
   'post_ext' => "md",
   'categories' => File.join(SOURCE, "categories"),
   'tags' => File.join(SOURCE, "tags")
@@ -63,6 +64,56 @@ task :post do
   end
 end # task :post
 
+desc "Begin a new draft in #{CONFIG['drafts']}"
+task :draft do
+  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  title = ENV["title"] || "Novo rascunho"
+
+  tags = ""
+  categories = ""
+
+  # tags
+  env_tags = ENV["tags"] || ""
+  keywords = env_tags
+  tags = strtag(env_tags)
+
+  # categorias
+  env_cat = ENV["category"] || ""
+  categories = strtag(env_cat)
+
+  # slug do post
+  slug = mount_slug(title)
+
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+    time = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%T')
+  rescue => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+
+  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new draft: #{filename}"
+  open(filename, 'w') do |draft|
+    draft.puts "---"
+    draft.puts "layout: draft"
+    draft.puts "title: \"#{title.gsub(/-/,' ')}\""
+    draft.puts "permalink: #{slug}"
+    draft.puts "date: #{date} #{time}"
+    draft.puts "comments: true"
+    draft.puts "description: \"#{title}\""
+    draft.puts "keywords: \"#{keywords}\""
+    draft.puts "categories:"
+    draft.puts "#{categories}"
+    draft.puts "tags:"
+    draft.puts "#{tags}"
+    draft.puts "---"
+  end
+end # task :draft
 
 desc "Create a new page."
 task :page do
