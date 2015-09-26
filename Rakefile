@@ -100,7 +100,7 @@ task :draft do
   puts "Creating new draft: #{filename}"
   open(filename, 'w') do |draft|
     draft.puts "---"
-    draft.puts "layout: draft"
+    draft.puts "layout: post"
     draft.puts "title: \"#{title.gsub(/-/,' ')}\""
     draft.puts "permalink: #{slug}"
     draft.puts "date: #{date} #{time}"
