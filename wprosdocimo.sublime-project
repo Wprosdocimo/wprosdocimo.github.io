@@ -1,0 +1,19 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/"
+        }
+    ],
+
+    "settings":
+    {
+        "Jekyll":
+        {
+            "posts_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_posts",
+            "drafts_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_drafts",
+            "uploads_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_uploads",
+        }
+    }
+}
