@@ -23,9 +23,9 @@ Depois de assistir o filme [Ratatouille](https://pt.wikipedia.org/wiki/Ratatouil
 
 ---
 
-## Ingrediente:
+## Ingredientes:
 
-- 2 Cebola média
+- 2 Cebolas médias
 ![Cebolas](/assets/posts/ratatouille/cebola_1.jpg)
 
 - 1 Abobrinha média
@@ -55,7 +55,7 @@ Depois de assistir o filme [Ratatouille](https://pt.wikipedia.org/wiki/Ratatouil
 ![Tomate](/assets/posts/ratatouille/tomate_2.jpg)
 
 - Corte as abobrinhas em rodelas;
-![Abobrinha](/assets/posts/ratatouille/Abobrinha_2.jpg)
+![Abobrinha](/assets/posts/ratatouille/abobrinha_2.jpg)
 
 - Corte as beringelas ao meio e depois em fatias;
 ![Beringela](/assets/posts/ratatouille/beringela_2.jpg)
