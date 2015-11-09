@@ -32,6 +32,10 @@ paginate_path: "/page/:num"
 sass:
   style: compressed
 
+gems: [
+  jekyll-paginate
+]
+
 # comments :
 #   provider : disqus
 #   disqus :
