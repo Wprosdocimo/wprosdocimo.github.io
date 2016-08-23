@@ -230,6 +230,20 @@ body.about .intro {
     }
   }
 }
+.about_author {
+  height: 60px
+}
+
+.about_author img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  @include center;
+  margin-top: 5px;
+  padding: 4px;
+  border: 2px solid $gray-color;
+}
 
 .scroll-down {
   position: absolute;
