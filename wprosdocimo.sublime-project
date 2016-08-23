@@ -3,7 +3,7 @@
     [
         {
             "follow_symlinks": true,
-            "path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/"
+            "path": "/Users/wilsonprosdocimo/Projects/Personal/wprosdocimo.github.io/"
         }
     ],
 
@@ -11,9 +11,9 @@
     {
         "Jekyll":
         {
-            "posts_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_posts",
-            "drafts_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_drafts",
-            "uploads_path": "/Users/wilson/Projects/WProsdocimo/wprosdocimo.github.io/_uploads",
+            "posts_path": "/Users/wilsonprosdocimo/Projects/Personal/wprosdocimo.github.io/_posts",
+            "drafts_path": "/Users/wilsonprosdocimo/Projects/Personal/wprosdocimo.github.io/_drafts",
+            "uploads_path": "/Users/wilsonprosdocimo/Projects/Personal/wprosdocimo.github.io/_uploads",
         }
     }
 }
