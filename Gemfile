@@ -5,3 +5,5 @@ source 'http://rubygems.org'
 group :development do
   gem 'jekyll'
 end
+
+gem 'jekyll-paginate'

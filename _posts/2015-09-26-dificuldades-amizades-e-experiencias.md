@@ -4,7 +4,7 @@ title: "Dificuldades, amizades e experiências"
 permalink: dificuldades-amizades-e-experiencias
 date: 2015-09-26 17:04:52
 comments: true
-description: "A algum tempo que venho pensando em reativar o meu blog, mas sempre que pensava nisso acabava desanimando..."
+description: "A algum tempo que venho pensando em reativar o meu blog, mas sempre que pensava nisso acabava desanimando... Descubra porque e como isso fou superado..."
 keywords: "jekyll, blog, amizade, experiencias, desafios"
 categories:
 - geral

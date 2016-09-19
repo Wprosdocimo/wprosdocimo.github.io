@@ -2,10 +2,9 @@
 layout: post
 title:  "Ratatouille à la WProsdocimo..."
 date:   2015-11-08 22:09:06
-categories: culinária
 permalink: ratatouille
 comments: true
-description: "A Minha receita de bolo indiano, espero que gostem"
+description: "Depois de assistir o filme Ratatouille fiquei muito curioso com a receita realizada por Rémy para surpreender Anton Ego, assim comecei a pesquizar na internet várias receitas e enfim cheguei a esta minha receita de ratatouille cozido que entitulei: Ratatouille à la WProsdocimo."
 keywords: "receita, ratatouille"
 categories:
   - Receitas

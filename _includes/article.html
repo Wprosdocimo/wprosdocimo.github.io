@@ -30,6 +30,6 @@
   </header>
 
   <div class="post-excerpt">
-    <p>{{ post.content | strip_html | truncatewords: 50 }} <a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Continue lendo &raquo;</a></p>
+    <p>{{ post.description | post.content | strip_html | truncatewords: 50 }} <br/><a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Continue lendo &raquo;</a></p>
   </div>
 </article>

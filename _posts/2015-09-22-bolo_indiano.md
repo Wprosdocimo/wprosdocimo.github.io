@@ -4,7 +4,7 @@ title:  "Bolo Indiano"
 permalink: bolo_indiano
 date: 2015-09-22 09:30:34
 comments: true
-description: "A Minha receita de bolo indiano, espero que gostem"
+description: "A Minha receita de bolo indiano, espero que gostem..."
 keywords: "receita, bolo, indiano, canela"
 categories:
   - Receitas

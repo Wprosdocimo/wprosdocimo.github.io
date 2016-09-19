@@ -4,14 +4,14 @@ title:  "Vamos começar!!!"
 permalink: vamos-comecar
 date:   2015-08-09 12:00
 comments: false
-description: "Post inicial"
+description: "Seja bem vindo ao meu blog, estou ressuscitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo algumas das postagens antigas revistas..."
 categories:
  - Geral
 tags:
  - geral
 ---
 
-Seja bem vindo ao meu blog, estou ressuscitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo algumas das postagens antigas revistas...
+Seja bem vindo ao meu blog, estou ressuscitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo algumas das postagens antigas, revistas...
 
 Pretendo escrever um pouco sobre tudo o que gosto, ou seja isto vai ser uma grande salada de frutas...
 
