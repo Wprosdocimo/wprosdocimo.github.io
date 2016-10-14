@@ -5,13 +5,13 @@ date:   2016-10-09 12:00:00
 categories: teste
 permalink: lente
 comments: false
-description: "Quem fotografa sabe que um excelente exercício para melhorar suas fotos e treinar seu olhar é dar um passo para o lado ou para traz, trocar a lente, mudar o foco, mudar a perspectiva etc. Mas como aplicar isto a vida pessoal ou profissional?"
+description: "Quem fotografa sabe que um excelente exercício para melhorar suas fotos e treinar seu olhar é dar um passo para traz ou para o lado, mudar a perspectiva, o enquadramento ou o foco, trocar a lente, testar filtros e técnicas diferentes. Mas como aplicar isto a vida pessoal ou profissional?"
 keywords: [Lentes, mudança, fotografia, vida, experiência]
 ---
 
-Quem fotografa sabe que um excelente exercício para melhorar suas fotos e treinar seu olhar é, antes de apertar o botão, dar um passo para o lado ou para traz, trocar a lente, mudar o foco, mudar a perspectiva, o enquadramento ou ainda fazer testes com filtros e/ou técnicas diferentes.
+Quem fotografa sabe que um excelente exercício para melhorar suas fotos e treinar seu olhar é dar um passo para traz ou para o lado, mudar a perspectiva, o enquadramento ou o foco, trocar a lente, testar filtros e técnicas diferentes.
 
-Recentemente enquanto ouvi alguns podcasts percebi que algumas técnicas aplicadas ao ambiente de trabalho são bem parecidas com este exercício, o que me fez pensar um pouco mais a respeito e tentar traçar alguns paralelos.
+Recentemente enquanto ouvia uns podcasts percebi que algumas técnicas aplicadas ao ambiente de trabalho são bem parecidas com este exercício, o que me fez pensar um pouco mais a respeito e tentar traçar alguns paralelos.
 
 Um dos primeiros exemplos que pensei a respeito foi a percepção de uma situação positiva ou negativamente. Neste ponto acho que o melhor paralelo com a fotografia seria se escolhemos capturar-la em Preto e Branco ou colorido. Hoje podemos ser comparados como as cameras digitais, pois frente a uma situação podemos selecionar se vemos as coisas em Preto e Branco (Negativamente) ou em cores (Positivamente) e o mais importante aqui é sabem que tanto uma como a outra tem suas vantagens. Visualizando a cena em Preto e Branco podemos ser mais assertivos quanto ao foco, o contraste e a composição, pois sem as cores podemos nos focar no conteúdo. No caso de optarmos pelas cores outros aspectos dos afetam, as cores tem a capacidade de trazer a tona nossas emoções e com isso podemos escolher que emoções e sensações queremos transmitir.
 
