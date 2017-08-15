@@ -11,6 +11,7 @@ facebook_username: wprosdocimo
 
 # Build settings
 markdown: kramdown
+show_drafts: 1
 
 # Author Data
 author :
