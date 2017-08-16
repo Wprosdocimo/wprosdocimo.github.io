@@ -8,7 +8,7 @@ slug: about
 {:.about_author}
 ![Wilson Luiz Prosdocimo](/images/author.jpg)
 
-Wilson Luiz Prosdocimo tem **37 anos** é casado e tem um filhinho chamado Tiago. Trabalha como administrador de redes e é fotografo amador nas horas vagas.
+Wilson Luiz Prosdocimo tem **38 anos** é casado e tem um filhinho chamado Tiago. Trabalha como administrador de redes e é fotografo amador nas horas vagas.
 
 Recentemente começou a descobrir a cultura **DevOps** e por causa disto começou a aprender um pouco de programação, iniciando com java e python, está estudando infraestrutura ágil e ferramentas de gestão provisionamento,  além de estar se preparando para as certificações da **AWS(*Amazon Web Services*)** e se desdobrando para dar atenção ao seu filho e esposa.
 
