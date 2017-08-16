@@ -13,6 +13,11 @@ CONFIG = {
   'tags' => File.join(SOURCE, "tags")
 }
 
+desc "Nao faz nada"
+task :default do
+  puts "OK"
+end
+
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
