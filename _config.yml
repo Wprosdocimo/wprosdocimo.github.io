@@ -13,6 +13,7 @@ timezone: America/Sao_Paulo
 # Build settings
 markdown: kramdown
 show_drafts: 1
+exclude: ["vendor"]
 
 # Author Data
 author :
