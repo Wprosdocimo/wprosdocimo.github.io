@@ -15,7 +15,7 @@ CONFIG = {
 
 desc "Nao faz nada"
 task :default do
-  puts "OK"
+  puts "OK - Pode publicar"
 end
 
 desc "Begin a new post in #{CONFIG['posts']}"
