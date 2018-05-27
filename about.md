@@ -8,19 +8,17 @@ slug: about
 {:.about_author}
 ![Wilson Luiz Prosdocimo](/images/author.jpg)
 
-Wilson Luiz Prosdocimo tem **38 anos** é casado e tem um filhinho chamado Tiago. Trabalha como administrador de redes e é fotografo amador nas horas vagas.
+Me chamo Wilson Luiz Prosdocimo (apesar de muitos me chamarem apenas de **Prosdocimo**), tenho **38 anos**, sou casado, pai do Tiago (3 anos), Curitibano.
 
-Recentemente começou a descobrir a cultura **DevOps** e por causa disto começou a aprender um pouco de programação, iniciando com java e python, está estudando infraestrutura ágil e ferramentas de gestão provisionamento,  além de estar se preparando para as certificações da **AWS(*Amazon Web Services*)** e se desdobrando para dar atenção ao seu filho e esposa.
+Sou pós-graduado em redes de computadores e segurança em redes, especialista em Linux e Firewalls. Também sou fotografo amador e a bastante tempo venho estudando muitos materiais sobre empreendedorismo, liderança e marketing.
 
-Pós-graduado em Redes de Computadores e Segurança em Redes pela Universidade Tuiuti do Paraná, onde também cursou o Tecnólogo na mesma área, sempre está procurando novos conhecimentos sobre infraestrutura e segurança, tanto física quanto em nuvem.
+Sou consultor e uma das atividades que mais me agrada é poder ajudar as pessoas a alcançarem seus objetivos. Procuro sempre alcançar novos horizontes e descobrir novas formas de ajudar aqueles que estão próximos a mim, pois acredito que ninguém alcança a felicidade sozinho. Além acreditar que é verdadeira a expressão que diz que "Você é a média das 5 pessoas com quem convive".
 
-Com a intenção de aprimorar o seu inglês, vem aproveitando sua paixão por series de TV e assistindo vários episódios nesta língua, especialmente series como *"Mr. Robot"*, *"Lie to me"*, *"Numbers"* e *"Grimm"*, entre outras.
+Estou sempre em busca de novos conhecimentos e não me canso de estudar temas como: Autoconhecimento, Coaching, Liderança, Empreendedorismo, Finanças Pessoais e para Empreendedores, Investimentos, Marketing Digital e de Lançamento.
 
-Em sua busca por novos conhecimentos procura também estimular seus colegas a aprender coisas novas, adora compartilhar conhecimento e trocar ideias de forma que todos possam crescer juntos.
+Espero conseguir ajudar o maior número possível de pessoas que estejam com dificuldade de alcançar o equilíbrio e que estejam em busca de alcançar um nível mais elevado de vida!
 
-Por adorar fotografia fez vários cursos na área, inclusive de   fotografia autoral e documental, fotografia de eventos e laboratório fotográfico. Fez curso de auto-maquiagem como intuito *(diz ele)* de perceber melhor a maquiagem e suas possibilidades na fotografia.
-
-Não se cansa de estudar temas como autoconhecimento, coaching, liderança, empreendedorismo, GTD entre outros, e procura com este aprendizado se autodisciplinar e ajudar aos outros a evoluírem em conjunto.
+Minha missão de vida é ajudar as pessoas a encontrar a plenitude e o equilíbrio em suas vidas.
 
 Um louco por auto-definição, nerd segundo alguns amigos e estranho segundo outros...
 
