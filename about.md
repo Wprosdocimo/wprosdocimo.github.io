@@ -8,7 +8,7 @@ slug: about
 {:.about_author}
 ![Wilson Luiz Prosdocimo](/images/author.jpg)
 
-Me chamo Wilson Luiz Prosdocimo (apesar de muitos me chamarem apenas de **Prosdocimo**), tenho **38 anos**, sou casado, pai do Tiago (3 anos), Curitibano.
+Me chamo Wilson Luiz Prosdocimo (apesar de muitos me chamarem apenas de **Prosdocimo**), tenho **40 anos**, sou casado, pai do Tiago (5 anos) e fo Felipe (1 ano), Curitibano.
 
 Sou pós-graduado em redes de computadores e segurança em redes, especialista em Linux e Firewalls. Também sou fotografo amador e a bastante tempo venho estudando muitos materiais sobre empreendedorismo, liderança e marketing.
 

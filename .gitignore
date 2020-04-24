@@ -2,6 +2,7 @@ _site
 .DS_Store
 .sass-cache
 /.jekyll-metadata
+/.jekyll-cache
 /wprosdocimo.sublime-workspace
 /_drafts/.DS_Store
 /_posts/.DS_Store
