@@ -3,7 +3,7 @@
 
 .container {
   width: 90%;
-  max-width: $tablet;
+  max-width: $desktop;
   margin: 0 auto;
   @include clearfix;
 }
@@ -15,6 +15,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: $tablet;
 }
 
 
