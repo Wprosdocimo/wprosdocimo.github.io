@@ -8,12 +8,8 @@ description: "Minha receita de cheesecake no pote, com geléia caseira de amoras
 keywords: "receita, torta, cheesecake"
 categories:
   - Receitas
-  - Tortas
-  - Culinária
 tags:
   - Tortas
-  - Receitas
-  - Culinária
 ---
 
 > Enfim a minha receita do cheesecake, esta receita foi baseada na receita da [Raíza Costa](https://www.facebook.com/chefraizacosta/) publicada no programa [Rainha da Cocada](http://gnt.globo.com/receitas/receitas/cheesecake-com-calda-de-laranjinha-kinkan.htm) no site GNT.

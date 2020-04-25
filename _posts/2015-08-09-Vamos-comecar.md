@@ -8,7 +8,7 @@ description: "Seja bem vindo ao meu blog, estou ressuscitando meu site com este 
 categories:
  - Geral
 tags:
- - geral
+ - blog
 ---
 
 Seja bem vindo ao meu blog, estou ressuscitando meu site com este blog e pretendo recomeçá-lo do zero, mas trazendo algumas das postagens antigas, revistas...

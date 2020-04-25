@@ -7,13 +7,10 @@ comments: true
 description: "A Batalha dos Malaprontinos: No início do mês passado a empresa onde trabalho lançou um desafio curioso, apesar de ser uma empresa de TI o desafio tinha um propósito um tanto quanto diferente..."
 keywords: "equipe, bolo, concurso, desafio"
 categories:
-  - Pessoas
   - Concursos
 tags:
   - Pessoas
   - Concursos
-  - Bolos
-  - Receitas
 ---
 
 No início do mês passado a empresa onde trabalho lançou um desafio curioso...

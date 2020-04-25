@@ -8,12 +8,8 @@ description: "Depois de assistir o filme Ratatouille fiquei muito curioso com a 
 keywords: "receita, ratatouille"
 categories:
   - Receitas
-  - Ratatouille
-  - Culinária
 tags:
   - Ratatouille
-  - Receitas
-  - Culinária
 ---
 
 Depois de assistir o filme [Ratatouille](https://pt.wikipedia.org/wiki/Ratatouille_(filme)) fiquei muito curioso com a receita realizada por *"Rémy" (ratinho cozinheiro)* para surpreender *"Anton Ego" (crítico gastronômico)*, assim comecei a pesquizar na internet várias receitas e enfim cheguei a esta minha receita de ratatouille cozido *(o do filme é assado)* que entitulei: "Ratatouille à la WProsdocimo"

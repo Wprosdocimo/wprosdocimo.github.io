@@ -26,9 +26,23 @@ slug: single
       {% endcase %}
       de {{ page.date | date: "%Y" }}
     </time>
+    <span>Categoria: 
+    {% for categoria in page.categories %}
+      {{ categoria }}
+    {% endfor %}
     {% if page.comments %}
-    <span> -- <i class="icon icon--comment"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Deixe um comentário</a></span>
+
+    </span>
+    <span><i class="icon icon--comment"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Deixe um comentário</a></span>
     {% endif %}
+    <br /> Etiquetas:
+    {% for tag in page.tags %}
+      {% if forloop.last %}
+        {{ tag }}
+      {% else %}
+        {{ tag | append: ", " }}
+      {% endif %}
+    {% endfor %}
   </p>
 
   <!-- Removido Seta conteudo

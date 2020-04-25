@@ -8,12 +8,8 @@ description: "A Minha receita de bolo indiano, espero que gostem..."
 keywords: "receita, bolo, indiano, canela"
 categories:
   - Receitas
-  - Bolos
-  - Culinária
 tags:
   - Bolos
-  - Receitas
-  - Culinária
 ---
 
 > Enfim a minha receita do bolo indiano, pra quem quiser saber como e porque cheguei a esta receita, sugiro que leia este [outro post](/cake_bake-off_brazil/)...

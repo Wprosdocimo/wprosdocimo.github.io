@@ -5,10 +5,19 @@ permalink: /about/
 slug: about
 ---
 
+{%   assign actualMonth = site.time | date: '%m'      %}
+{%   assign actualYear = site.time | date: '%Y'      %}
+{%   assign diferenceMonth = actualMonth | minus: '06' %}
+{% if diferenceMonth > 0  %}
+  {% assign myAge = actualYear | minus: '1979' %}
+{% else %}
+  {% assign myAge = actualYear | minus: '1979' | minus: 1 %}
+{% endif %}
+
 {:.about_author}
 ![Wilson Luiz Prosdocimo](/images/author.jpg)
 
-Me chamo Wilson Luiz Prosdocimo (apesar de muitos me chamarem apenas de **Prosdocimo**), tenho **40 anos**, sou casado, pai do Tiago (5 anos) e fo Felipe (1 ano), Curitibano.
+Me chamo Wilson Luiz Prosdocimo (apesar de muitos me chamarem apenas de **Prosdocimo**), tenho **{{myAge}} anos**, sou casado, pai do Tiago e do Felipe, Curitibano.
 
 Sou pós-graduado em redes de computadores e segurança em redes, especialista em Linux e Firewalls. Também sou fotografo amador e a bastante tempo venho estudando muitos materiais sobre empreendedorismo, liderança e marketing.
 

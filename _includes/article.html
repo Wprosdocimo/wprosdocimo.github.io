@@ -22,10 +22,25 @@
         {% endcase %}
         de {{ post.date | date: "%Y" }}
       </time>
+      <span>
+        Categoria: 
+        {% for categoria in post.categories %}
+          {{ categoria }}
+        {% endfor %}
+
+      </span>
 
       {% if post.comments %}
-        <span> -- <i class="icon icon--comment"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
+        <span> <i class="icon icon--comment"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
       {% endif %}
+      <br /> Etiquetas:
+      {% for tag in post.tags %}
+        {% if forloop.last %}
+          {{ tag }}
+        {% else %}
+          {{ tag | append: ", " }}
+        {% endif %}
+      {% endfor %}
     </span>
   </header>
 
