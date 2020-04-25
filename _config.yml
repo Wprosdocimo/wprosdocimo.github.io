@@ -12,8 +12,8 @@ timezone: America/Sao_Paulo
 
 # Build settings
 markdown: kramdown
-show_drafts: 0
-future: 0
+show_drafts: false
+future: false
 exclude: ["vendor"]
 
 # Author Data
