@@ -39,6 +39,8 @@ Após instalar e executar o aplicativo da distribuição desejada, é solicitado
 
 Ao contrário de uma máquina virtual, o WSL é integrado com o sistema, permitindo o acesso dos arquivos tanto do sistema como os arquivos da distribuição.
 
+---
+
 ### Sobre o WSL 2
 
 Duas grandes limitações do WSL são a sua performance envolvendo operações de disco e a sua compatibilidade com algumas system calls específicas. Outra limitação é a compatibilidade com system calls. Embora grande parte das system calls funcione graças a implementação e melhorias adicionadas pela equipe do WSL.
@@ -53,7 +55,9 @@ Graças ao uso dessa máquina virtual, a performance com operações em disco au
 
 Uma desvantagem dessa abordagem é que não temos acesso direto aos arquivos armazenados dentro do WSL 2, mas temos outras formas de acessar esses arquivos, através da rede ou com extensões especialidades nas nossas IDE, como a extensão Remote WSL do Visual Studio Code. Assim podemos utilizar da melhoria de performance em disco trazido pelo WSL 2.
 
-### Instalando o WSL 2
+---
+
+### Aderindo ao programa Windows Insider
 
 O processo de instalação do WSL 2 é muito próximo WSL 1. No momento ele está disponível na versão Insider do Windows 10 (build 18917 ou superior).
 
@@ -61,11 +65,47 @@ Para ter acesso a esta versão é necessário ingressar no [Programa Windows Ins
 
 Para ingressar neste programa você pode clicar em:
 
-**Iniciar > Configurações > Atualização e Segurança > Programa Windows Insider > Começar agora**
+> **Iniciar > Configurações > Atualização e Segurança > Programa Windows Insider > Começar agora**
 
-Será necessário se autenticar com uma conta microsoft, mas o processo é bastante simples.
+Caso ocorra este erro:
+![image.png](/assets/posts/DockerOnWin10Home/erro_insider.jpg)
 
-Depois de ingressar no programa e atualizar seu Windows 10 já é possível iniciar a configuração do WSL 2. Para isso abra uma janela do PowerShell como administrador e execute os seguintes comendos, para habilitar a feature do Windows Subsystem for Linux e também o Virtual Machine Platform.
+Clique em Diagnóstico e Comentários e selecione a opção para enviar dados de diagnóstico completos:
+![image.png](/assets/posts/DockerOnWin10Home/diagnosticos.jpg)
+
+Em seguida, será necessário vincular a sua conta microsoft:
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/vincular_conta.jpg)
+
+e se registrar no programa Windows Insider:
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/participar.jpg)
+
+Após se registrar virá a próxima tela, caso esta tela esteja demorando muito cancele e refaça os últimos passos.
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/carregando.jpg)
+
+Chegou a hora de escolher o modo de atualização, e o mais seguro é manter no Modo Lento, que já é o recomendado e te manterá numa versão um pouco mais estável das atualizações.
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/anel_de_atualizacao.jpg)
+
+Aqui você pode ler a politica de privacidade e o contrato do programa insider, após ler clique em confirmar.
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/contrato.jpg)
+
+Agora só falta reiniciar...
+
+![Vincular contra microsoft](/assets/posts/DockerOnWin10Home/reiniciar.jpg)
+
+---
+
+### Ativando o WSL 2
+
+Depois de ingressar no programa será necessário atualizar o Windows para obter as últimas versões do Windows e depois de atualizado já será possível iniciar a configuração do WSL 2. Para isso abra uma janela do PowerShell como administrador e execute os seguintes comendos, para habilitar a feature do Windows Subsystem for Linux e também o Virtual Machine Platform.
+
+Depois de ingressar no programa será necessário atualizar o Windows para obter as últimas versões do Windows e depois de atualizado já será possível iniciar a configuração do WSL 2.
+
+Para isso abra uma janela do PowerShell como administrador e execute os seguintes comendos, para habilitar a feature do Windows Subsystem for Linux e também o Virtual Machine Platform.
 
 ```posh
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
@@ -97,6 +137,8 @@ wsl --set-default-version 2
 Pelo motivo do WSL 2 ainda estar em desenvolvimento, podemos esperar que muitas melhorias sejam implementadas até seu lançamento final. Com a melhoria de performance e compatibilidade total com Linux, temos um ambiente de desenvolvimento com performance comparável o Linux instalado de forma nativa, o que é uma grande conquista.
 
 O Docker para Windows irá se aproveitar do WSL 2, estando disponível na versão Edge do mesmo integração com o WSL 2, aproveitando também dos ganhos de performance com disco, um dos problemas que temos atualmente com o Docker ao usá-lo no Windows com aplicações que precisam de um grande volume de leitura e escrita em disco.
+
+---
 
 ## Docker for Windows 10 Home
 
