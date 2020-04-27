@@ -1,0 +1,11 @@
+version: '2.0'
+services:
+  blog:
+    image: jekyll/jekyll
+    ports:
+    - "8080:4000"
+    volumes:
+    - .:/srv/jekyll
+    entrypoint: "jekyll serve --incremental --drafts --watch --future --force-polling --livereload"
+
+# ker run --rm --volume="C:\Users\WLP\Projetos\wprosdocimo_blog\:/srv/jekyll" -p 8080:4000 -it jekyll/jekyll jekyll serve --incremental --drafts --watch --future --force-polling --livereload
