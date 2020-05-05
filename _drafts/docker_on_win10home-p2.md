@@ -2,7 +2,7 @@
 layout: post
 title: Instalando Docker Desktop em Windows 10 Home - Parte 2
 permalink: docker_on_win10home-p2
-date: '2020-05-07 12:01'
+date: '2020-05-07 12:00'
 comments: false
 description: "Tutorial para auxiliar na instalação do Docker Desktop em maquinas com Windows 10 Home Edition..."
 keywords: "devops, docker, wsl, windows"
