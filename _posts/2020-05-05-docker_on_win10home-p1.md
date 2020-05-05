@@ -152,3 +152,7 @@ Pelo motivo do WSL 2 ainda estar em desenvolvimento, podemos esperar que muitas 
 O Docker para Windows irá se aproveitar do WSL 2, estando disponível na versão Edge do mesmo integração com o WSL 2, aproveitando também dos ganhos de performance com disco, um dos problemas que temos atualmente com o Docker ao usá-lo no Windows com aplicações que precisam de um grande volume de leitura e escrita em disco.
 
 ---
+
+Espero que tenham gostado desta primeira parte, logo vou finalizar a segunda parte com a instalação do docker.
+
+Até logo.
