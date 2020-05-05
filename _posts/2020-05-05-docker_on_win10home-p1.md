@@ -149,7 +149,7 @@ wsl --set-default-version 2
 
 Pelo motivo do WSL 2 ainda estar em desenvolvimento, podemos esperar que muitas melhorias sejam implementadas até seu lançamento final. Com a melhoria de performance e compatibilidade total com Linux, temos um ambiente de desenvolvimento com performance comparável o Linux instalado de forma nativa, o que é uma grande conquista.
 
-O Docker para Windows irá se aproveitar do WSL 2, estando disponível na versão Edge do mesmo integração com o WSL 2, aproveitando também dos ganhos de performance com disco, um dos problemas que temos atualmente com o Docker ao usá-lo no Windows com aplicações que precisam de um grande volume de leitura e escrita em disco.
+O Docker para Windows irá aproveitar as melhorias do WSL 2, já está disponível na versão Edge do mesmo a integração com o WSL 2, aproveitando também dos ganhos de performance com disco, um dos problemas que temos atualmente com o Docker ao usá-lo no Windows com aplicações que precisam de um grande volume de leitura e escrita em disco.
 
 ---
 
