@@ -23,20 +23,49 @@ Então vamos lá:
 
 ## Docker for Windows 10 Home
 
-Enfim, com o WSL 2 instalado já é possível instalar o Docker. Para isso podemos baixar o instalador da [versão Edge do Docker Desktop](https://download.docker.com/win/edge/Docker%20Desktop%20Installer.exe).
+Com o WSL 2 instalado já é possível instalar o Docker. Para isso podemos baixar o instalador da [versão Edge do Docker Desktop](https://download.docker.com/win/edge/Docker%20Desktop%20Installer.exe).
 
-Durante a instalação aparecerá a possibilidade de configurar a integração com a engine do WSL 2.
+Já na primeira tela aparecerá a possibilidade de ativar a integração com a engine do WSL 2.
 
-![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_settings.jpg)
+![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_install.jpg)
+
+Clicando em OK a instalação prosseguira e se tudo correr bem deverá aparecer a seguinte mensagem:
+
+> **ATENÇÃO: ao clicar em "Close and log out" sua sessão será desconectada.**
+
+
+![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_installed.jpg)
 
 Após instalado e ativado a engine do WSL 2, é possivel vincular as distribuições Linux que estão instaladas na maquina com o Docker Desktop.
 
-![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_settings2.jpg)
+![icone do docker desktop na área de trabalho](/assets/posts/DockerOnWin10Home/docker-icon.jpg)
 
-Com isso já temos o Docker instalado e rodando na maquina, com Windows 10 Home. Agora só falta começar a subir os containers.
+Clicando nele você iá visualizar o dashboard do docker e terá a possibilidade de executar o tutorial básico para conhecer o docker.
+
+![Tela de apresentação e primeiros passos](/assets/posts/DockerOnWin10Home/wsl2_docker_tutorial.jpg)
+
+Acessando o ícone de configuração, teremos as seguintes opções na categoria *"General"*.
+
+Eu normalmente desmarco a opção *"Start Docker Desktop when your log in"*, pois gosto de ativar o docker apenas quando vou utilizar.
+
+Além desta eu gosto de ativar a opção *"Expose daemon on tcp://localhost:2375 without TLS"* para utilizar o docker em conjunto com o terraform.
+
+![Tela de configuração geral do docker desktop](/assets/posts/DockerOnWin10Home/wsl2_docker_settings.jpg)
+
+Na categoria *"Resources > WSL Integration"* é possivel selecionar com qual distro a integração WSL vai se conectar.
+
+![Tela de configuração de recursos e integração WSL](/assets/posts/DockerOnWin10Home/wsl2_docker_settings2.jpg)
+
+Finalizando estas configurações e clicando em *"Apply & Restart"* o docker estará instalado, configurado e rodando na maquina, com Windows 10 Home.
+
+Agora só falta começar a subir os contêineres.
 
 Eu realizei testes com a integração do Visual Studio Code e do Visual Studio 2019 e ambas funcionaram corretamente.
 
-Testei fazer a exposição da porta 2375 e a integração com o Terraform funcionou corretamente também, logo pretendo fazer alguns posts sobre estes testes.
+Testei também a integração com o *Terraform*, que funcionou muito bem.
 
-E por hoje é só pessoal, espero que tenham gostado do post, pretendo retomar as postagens no blog a partir de hoje, focando nesta parte de infraestrutura, desenvolvimento e DevOps. Mas sem deixar os assuntos aleatórios também.
+Logo pretendo fazer alguns posts sobre estes testes.
+
+Por hoje é só pessoal, espero que tenham gostado do post, pretendo retomar as postagens no blog, focando nesta parte de infraestrutura, desenvolvimento e DevOps. Mas sem deixar os assuntos aleatórios também.
+
+Até breve.
