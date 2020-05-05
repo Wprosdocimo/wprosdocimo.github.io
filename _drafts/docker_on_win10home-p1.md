@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Instalando Docker Desktop em Windows 10 Home
-permalink: docker_on_win10home
-date: '2020-04-30 12:00'
+title: Instalando Docker Desktop em Windows 10 Home - Parte 1
+permalink: docker_on_win10home-p1
+date: '2020-05-05 12:00'
 comments: false
 description: "Tutorial para auxiliar na instalação do Docker Desktop em maquinas com Windows 10 Home Edition..."
 keywords: "devops, docker, wsl, windows"
@@ -15,11 +15,17 @@ tags:
   - Windows 10 Home
 ---
 
-# Preparando o ambiente
+Iniciei a escrita deste post pensando em fazer um pequeno HowTo para facilitar a configuração do Docker Desktop para quem como eu tem Windows 10 Home e não podia utilizá-lo até este momento. Porém o documento começou a ficar bastante grande e por isso estou separando em 2.
 
-## Windows Subsystem for Linux
+Neste port inicial vou abordar a preparação do ambiente, com a ativação do WSL ainda na versão 1, os passos para aderir ao programa Windows Insider e a configuração do WSL versão 2. e no próximo vou abordar a instalação propriamente do Docker Desktop neste ambiente.
+
+Então vamos lá:
+
+## Preparando o ambiente
 
 Para poder utilizar o Docker Desktop em maquinas Windows Home é necessário estar utilizando o WSL2.
+
+### Windows Subsystem for Linux
 
 Para quem não sabe exatamente o que é o *WSL (Windows Subsystem for Linux ou Subsistema Windows para Linux)*, ele é um recurso opcional disponivel no Windows 10 (a partir da versão 1607) que permite executar binários e scripts Linux diretamente no Windows. Com ele é possível ter um ambiente idêntico a de uma distribuição Linux, sem precisar usar uma maquina virtual ou algo do tipo.
 
@@ -126,6 +132,13 @@ Para migrar uma distribuição você pode por exemplo, se você tem o Ubuntu 18.
 wsl --set-version Ubuntu-18.04 2
 ```
 
+Caso você receba esta mensagem:
+> WSL 2 requer uma atualização para seu componente kernel. Para obter mais informações, visite https://aka.ms/wsl2kernel
+
+Você pode acessar o link ou baixar o pacote de atualização direto [deste link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
+
+Baixando e instalando esta atualização você já deve conseguir converter as instalações do WSL 1 para o 2.
+
 Listando novamente as distribuições você já poderá confirmar a mudança.
 
 Caso esteja utilizando uma instalação limpa do Windows, você pode definir a versão padrão do WSL para a segunda versão com o comando:
@@ -139,23 +152,3 @@ Pelo motivo do WSL 2 ainda estar em desenvolvimento, podemos esperar que muitas 
 O Docker para Windows irá se aproveitar do WSL 2, estando disponível na versão Edge do mesmo integração com o WSL 2, aproveitando também dos ganhos de performance com disco, um dos problemas que temos atualmente com o Docker ao usá-lo no Windows com aplicações que precisam de um grande volume de leitura e escrita em disco.
 
 ---
-
-## Docker for Windows 10 Home
-
-Enfim, com o WSL 2 instalado já é possível instalar o Docker. Para isso podemos baixar o instalador da [versão Edge do Docker Desktop](https://download.docker.com/win/edge/Docker%20Desktop%20Installer.exe).
-
-Durante a instalação aparecerá a possibilidade de configurar a integração com a engine do WSL 2.
-
-![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_settings.jpg)
-
-Após instalado e ativado a engine do WSL 2, é possivel vincular as distribuições Linux que estão instaladas na maquina com o Docker Desktop.
-
-![Tela de instalação do docker com opção WSL 2 ativada](/assets/posts/DockerOnWin10Home/wsl2_docker_settings2.jpg)
-
-Com isso já temos o Docker instalado e rodando na maquina, com Windows 10 Home. Agora só falta começar a subir os containers.
-
-Eu realizei testes com a integração do Visual Studio Code e do Visual Studio 2019 e ambas funcionaram corretamente.
-
-Testei fazer a exposição da porta 2375 e a integração com o Terraform funcionou corretamente também, logo pretendo fazer alguns posts sobre estes testes.
-
-E por hoje é só pessoal, espero que tenham gostado do post, pretendo retomar as postagens no blog a partir de hoje, focando nesta parte de infraestrutura, desenvolvimento e DevOps. Mas sem deixar os assuntos aleatórios também.
