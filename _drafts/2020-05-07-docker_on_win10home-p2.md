@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instalando Docker Desktop em Windows 10 Home - Parte 2
+title: (Depreciado) Instalando Docker Desktop em Windows 10 Home - Parte 2
 permalink: docker_on_win10home-p2
 date: '2020-05-07 12:01'
 comments: false

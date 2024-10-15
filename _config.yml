@@ -20,25 +20,29 @@ exclude: ["vendor"]
 author :
   name : Wilson Luiz Prosdocimo
   email : wilson@wprosdocimo.com.br
-  tumblr: wprosdocimo
+  # tumblr: wprosdocimo
   flickr: wprosdocimo
   github : wprosdocimo
   repository: wprosdocimo.github.io
-  twitter : wprosdocimo
+  # twitter : wprosdocimo
   facebook: wprosdocimo
   linkedin: wprosdocimo
-  googleplus: wprosdocimo
-  pinterest: wprosdocimo
+  # googleplus: wprosdocimo
+  # pinterest: wprosdocimo
 
 paginate: 5
 paginate_path: "/page/:num"
 
 sass:
+  sass_dir: _sass
   style: compressed
 
-plugins: [
-  jekyll-paginate
-]
+plugins:
+  - jekyll-paginate
+
+exclude:
+  - .vscode/
+  - .github/
 
 # comments :
 #   provider : disqus

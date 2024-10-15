@@ -1,12 +1,17 @@
-version: '2.0'
+version: '3.5'
 services:
   blog:
-    image: jekyll/jekyll
+    image: docker.io/jekyll/jekyll:4.0.0
+    # privileged: true
+    # security_opt:
+    #   - label: "disable"
     ports:
     - "8080:4000"
     volumes:
-    - .:/srv/jekyll
-    entrypoint: "jekyll serve --incremental --drafts --watch --force-polling --livereload"
+    - .:/srv/jekyll:Z
+    environment:
+      JEKYLL_ROOTLESS: 1
+    entrypoint: "jekyll serve --incremental --trace --watch --force-polling --livereload"
     #entrypoint: "jekyll serve --incremental --drafts --watch --future --force-polling --livereload"
 
 # ker run --rm --volume="C:\Users\WLP\Projetos\wprosdocimo_blog\:/srv/jekyll" -p 8080:4000 -it jekyll/jekyll jekyll serve --incremental --drafts --watch --future --force-polling --livereload
