@@ -7,7 +7,9 @@ domain_name: "wprosdocimo.com.br"
 url: "http://wprosdocimo.com.br" # the base hostname & protocol for your site
 twitter_username: wprosdocimo
 github_username:  wprosdocimo
+linkedin_username: wprosdocimo
 facebook_username: wprosdocimo
+instagram_username: wprosdocimo
 timezone: America/Sao_Paulo
 
 # Build settings

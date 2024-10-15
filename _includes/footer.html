@@ -2,18 +2,33 @@
   <div class="container">
     <ul class="social-media">
 
-      <!-- {% if site.twitter_username %}
+      {% if site.instagram_username %}
+      <li>
+        <a href="https://www.instagram.com/{{ site.instagram_username }}" title="{{ site.github_username }}" target="_blank">
+          <i class="icon icon--instagram"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.twitter_username %}
       <li>
         <a href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }}" target="_blank">
           <i class="icon icon--twitter"></i>
         </a>
       </li>
-      {% endif %} -->
+      {% endif %}
 
       {% if site.github_username %}
       <li>
         <a href="https://github.com/{{ site.github_username }}" title="{{ site.github_username }}" target="_blank">
           <i class="icon icon--github"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.linkedin_username %}
+      <li>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.github_username }}" target="_blank">
+          <i class="icon icon--linkedin"></i>
         </a>
       </li>
       {% endif %}
